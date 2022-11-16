@@ -1,3 +1,8 @@
+/*begin-commonstyles library*//*!
+ * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
+ * License https://froala.com/wysiwyg-editor/terms/
+ * Copyright 2014-2021 Froala Labs
+ */
 
 .fr-clearfix::after {
   clear: both;
@@ -355,6 +360,7 @@ span.fr-img-caption.fr-view {
       float: right;
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
+/*end-commonstyles library*/@charset "UTF-8";
 .u-hidden-block {
   visibility: hidden!important;
 }
@@ -38302,12 +38308,12 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-shape-1 {
     width: 60px;
     height: 60px;
-    margin-top: 357px;
-    margin-right: 152px;
+    margin-top: 358px;
+    margin-right: 52px;
   }
 
   .u-header .u-group-1 {
-    margin-top: -318px;
+    margin-top: -319px;
     height: auto;
   }
 
@@ -38347,16 +38353,40 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-2 {
     width: 42px;
     height: 44px;
-    margin-top: 59px;
-    margin-right: 160px;
+    margin-top: 60px;
+    margin-right: 61px;
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-shape-1 {
+    margin-top: 449px;
+    margin-right: auto;
+  }
+
   .u-header .u-group-1 {
-    margin-top: -318px;
+    margin-top: -409px;
+  }
+
+  .u-header .u-group-2 {
+    margin-top: 106px;
+  }
+
+  .u-header .u-text-2 {
+    margin-top: -148px;
+  }
+
+  .u-header .u-image-2 {
+    width: 42px;
+    margin-top: 151px;
+    margin-right: auto;
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-group-1 {
+    margin-top: -409px;
+  }
+
   .u-header .u-group-2 {
     width: 540px;
   }
@@ -38365,23 +38395,53 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-header .u-text-2 {
+    margin-top: -148px;
+  }
+
+  .u-header .u-image-2 {
+    width: 42px;
+  }
 }
 @media (max-width: 575px) {
   .u-header .u-shape-1 {
-    margin-top: 341px;
+    margin-top: 433px;
   }
 
   .u-header .u-group-1 {
-    margin-top: -302px;
+    margin-top: -393px;
   }
 
   .u-header .u-group-2 {
-    width: 340px;
-    margin-top: 98px;
+    margin-top: 99px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-header .u-icon-1 {
+    margin-top: 9px;
+    margin-right: 53px;
+  }
+
+  .u-header .u-icon-2 {
+    width: 42px;
+    margin-top: -42px;
+    margin-left: 53px;
+  }
+
+  .u-header .u-icon-3 {
+    margin-top: -68px;
   }
 
   .u-header .u-text-2 {
-    margin-top: -140px;
+    margin-top: -141px;
+  }
+
+  .u-header .u-image-2 {
+    width: 42px;
+    margin-top: 151px;
   }
 }
  .u-footer {
